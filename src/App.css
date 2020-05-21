@@ -16,3 +16,7 @@ a {
 #shop-logo:hover {
   color: rgb(52, 111, 238);
 } 
+
+* {
+  box-sizing: border-box;
+}
