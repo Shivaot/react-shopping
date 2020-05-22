@@ -6,8 +6,7 @@ import { auth } from '../../firebase/firebase.utils';
 
 import './Header.styles.scss';
 const Header = (props) => {
-    console.log(props);
-
+    
     const handleSignOut = () => {
         auth.signOut();
         props.history.push("/");
